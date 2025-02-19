@@ -26,6 +26,7 @@ public class SecondActivity extends AppCompatActivity {
             return insets;
         });
         Spinner spinner = findViewById(R.id.spinner);
+
         String[] items = {"Lesson 1", "Lesson 2", "Lesson 3", "Lesson 4", "Lesson 5"};
         ArrayAdapter<String> adapter = new ArrayAdapter<>( SecondActivity.this, android.R.layout.simple_spinner_item, items);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);

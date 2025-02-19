@@ -165,9 +165,10 @@
 
         <Spinner
             android:id="@+id/spinner"
-            android:paddingHorizontal="16dp"
             android:layout_width="158dp"
-            android:layout_height="41dp" />
+            android:textColor="@color/black"
+            android:layout_height="41dp"
+            android:paddingHorizontal="16dp" />
     </FrameLayout>
     <TextView
         android:textColor="@color/white"
