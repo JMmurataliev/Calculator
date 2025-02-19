@@ -8,6 +8,21 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/activity_button"
+        android:text="Go to next Activity"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        app:strokeColor="@color/white"
+        android:textColor="@color/gray"
+        android:visibility="invisible"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
 <FrameLayout
     app:layout_constraintTop_toTopOf="parent"
     app:layout_constraintBottom_toTopOf="@id/container"
